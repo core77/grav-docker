@@ -4,6 +4,6 @@ services:
   grav:
     image: grav
     volumes:
-      - ./user:/var/www/html/user
+      - ../user:/var/www/html/user
     ports:
       - 80:80
